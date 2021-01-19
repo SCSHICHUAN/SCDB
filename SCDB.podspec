@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SCDB'
-  s.version          = '0.1.0'
+  s.version          = '1.0.0'
   s.summary          = 'SCDB 利用数据库，把OC对象直接插入数据库，然后从数据库中读出OC的对象'
 
 # This description is used to generate tags and improve search results.
