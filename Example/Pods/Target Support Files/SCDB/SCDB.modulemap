@@ -1,0 +1,6 @@
+framework module SCDB {
+  umbrella header "SCDB-umbrella.h"
+
+  export *
+  module * { export * }
+}

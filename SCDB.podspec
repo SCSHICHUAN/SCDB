@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'SCDB'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of SCDB.'
+  s.summary          = 'SCDB 利用数据库，把OC对象直接插入数据库，然后从数据库中读出OC的对象'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/scshichuan/SCDB'
+  s.homepage         = 'https://github.com/SCSHICHUAN/SCDB'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'scshichuan' => '573387383@QQ.COM' }
-  s.source           = { :git => 'https://github.com/scshichuan/SCDB.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/SCSHICHUAN/SCDB.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
