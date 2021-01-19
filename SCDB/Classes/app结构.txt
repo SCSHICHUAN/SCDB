@@ -1,0 +1,10 @@
+
+澎湃app结构
+UIWindow-->MLTabBarViewController-->MLNavigationController-->YRSideViewController-->TPMainPageViewController-->WaitShenViewController.m 首页
+UIWindow-->MLTabBarViewController-->MLNavigationController-->GaoJianBarViewController-->GaojianChannelListViewController 稿件
+UIWindow-->MLTabBarViewController-->MLNavigationController-->MessageBarViewController 消息
+UIWindow-->MLTabBarViewController-->MLNavigationController-->MeBarViewController 我的
+UIWindow-->MLTabBarViewController-->MLNavigationController-->CreateOrEditViewController 新建稿件
+UIWindow-->MLTabBarViewController-->MLNavigationController-->WebEditViewController 新建视频
+
+writeCommentAndAskController.h
