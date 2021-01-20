@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		02E7E56862247145F6300CD26C494B7A /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = A5EA1E48D27161D8C00FC50E480967B1 /* ReplaceMe.m */; };
 		6234F3D1126C0583EF29301932B7AE57 /* SCDB-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 85193AC2ED966D33957D5B81F661727D /* SCDB-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7C706E56F9E578F4E79C49E0DD8CBC4E /* Pods-SCDB_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A17A5C24EE711A5F24BAF99F2D04023 /* Pods-SCDB_Example-dummy.m */; };
 		84DE1D1E3D8A8B1628A7113EF9D41FD8 /* Pods-SCDB_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B6E8EDB7B70A9345D960DE2BB0460899 /* Pods-SCDB_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -37,7 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		050FD51BB807E91777D226BEDAFDBB3A /* SCDB.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SCDB.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		050FD51BB807E91777D226BEDAFDBB3A /* SCDB.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = SCDB.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		060701C71E935A4D606081547958314B /* Pods-SCDB_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SCDB_Tests-dummy.m"; sourceTree = "<group>"; };
 		0ADB1BCC80CF2B87DC08D685A1FA4FD8 /* Pods-SCDB_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SCDB_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		0DC377DC39C88D0D72DFD484C150306F /* Pods-SCDB_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SCDB_Example.modulemap"; sourceTree = "<group>"; };
@@ -45,7 +44,7 @@
 		25EB2685F5BE49EC9BFDC1B50D078C96 /* Pods-SCDB_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SCDB_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		2F1A8FC3199CCE5A36DFD9DAE581C501 /* Pods-SCDB_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SCDB_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		2FE0D4E147E3ECD8AEBA321759BCA7C9 /* Pods-SCDB_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SCDB_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		30CD6E716E46D1FAE9E774D27C27CAAE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		30CD6E716E46D1FAE9E774D27C27CAAE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		45A88E638A9BBA19D5C05463E595CAF7 /* SCDB-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SCDB-Info.plist"; sourceTree = "<group>"; };
 		466A1B9A3796FACB7E215619CE0DA9FB /* SCDB.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SCDB.modulemap; sourceTree = "<group>"; };
 		4F25A5C3DD96B5F79BA16AFF94EC1E21 /* Pods-SCDB_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SCDB_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -53,21 +52,20 @@
 		6943316E27BEE9E6D1F3A5DC0E276909 /* Pods-SCDB_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SCDB_Tests.modulemap"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7A17A5C24EE711A5F24BAF99F2D04023 /* Pods-SCDB_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SCDB_Example-dummy.m"; sourceTree = "<group>"; };
-		80256709A4E2AC4E0752236DDEB39F74 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		80256709A4E2AC4E0752236DDEB39F74 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		85193AC2ED966D33957D5B81F661727D /* SCDB-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SCDB-umbrella.h"; sourceTree = "<group>"; };
-		8760F09EC66BA22008FB27CD099D547A /* Pods_SCDB_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SCDB_Tests.framework; path = "Pods-SCDB_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8BCB8C11010E86FC570412B084BAAB54 /* SCDB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SCDB.framework; path = SCDB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8760F09EC66BA22008FB27CD099D547A /* Pods_SCDB_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SCDB_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BCB8C11010E86FC570412B084BAAB54 /* SCDB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SCDB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DA9C113AEC7173026CBC5E89A446565 /* Pods-SCDB_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SCDB_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		9475D12D347AC4EE132B725EC13CDB01 /* SCDB.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SCDB.debug.xcconfig; sourceTree = "<group>"; };
 		9A6475442402CFD7C4223D0AAEEFBA1E /* SCDB-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SCDB-dummy.m"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A5EA1E48D27161D8C00FC50E480967B1 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = SCDB/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B6E8EDB7B70A9345D960DE2BB0460899 /* Pods-SCDB_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SCDB_Tests-umbrella.h"; sourceTree = "<group>"; };
 		BBD6AE167F03C4C44928F58325F3C547 /* Pods-SCDB_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SCDB_Example-umbrella.h"; sourceTree = "<group>"; };
 		BC537745A680F54390A5C8E5BF66F587 /* SCDB-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SCDB-prefix.pch"; sourceTree = "<group>"; };
 		D0F79285AEAD04372DBB5A14C7A42CED /* Pods-SCDB_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SCDB_Example-frameworks.sh"; sourceTree = "<group>"; };
 		DBFD029161DDCA847B79C94E646BF371 /* Pods-SCDB_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SCDB_Tests-Info.plist"; sourceTree = "<group>"; };
-		E4A13412700BFE6A305FB2DF05DC0C4E /* Pods_SCDB_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SCDB_Example.framework; path = "Pods-SCDB_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4A13412700BFE6A305FB2DF05DC0C4E /* Pods_SCDB_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SCDB_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC9136F6EA98DBD5FF659D55E6B297D9 /* Pods-SCDB_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SCDB_Example.release.xcconfig"; sourceTree = "<group>"; };
 		F669F6A20AFFF6D230C1D9B48D63F511 /* Pods-SCDB_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SCDB_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -169,7 +167,6 @@
 		6D0AE26E4CA89FECFB622326E9CCCF23 /* SCDB */ = {
 			isa = PBXGroup;
 			children = (
-				A5EA1E48D27161D8C00FC50E480967B1 /* ReplaceMe.m */,
 				9FDD6BE73CC0981603BF70DA1B4A8FE5 /* Pod */,
 				611B25AA95EF75C28CE0B7AD8BF2C7A9 /* Support Files */,
 			);
@@ -367,7 +364,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				02E7E56862247145F6300CD26C494B7A /* ReplaceMe.m in Sources */,
 				CABA69A46379316C5B05CA7C3B5A217D /* SCDB-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -718,8 +714,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
