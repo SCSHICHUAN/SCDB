@@ -217,8 +217,12 @@
  */
 +(NSString*)dbPath
 {
+    
     //获取程序的名字
-    NSString *dbName = [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleDisplayName"];
+    NSString *dbName = [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleName"];
+    if (dbName == nil) {
+        dbName = @"SCDB";
+    }
     dbName =  [dbName stringByAppendingString:@".sqlite"];
     //拼接数据库存储路径
     NSArray *docPaths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
