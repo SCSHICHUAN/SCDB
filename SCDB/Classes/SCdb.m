@@ -1,9 +1,9 @@
 //
 //  SCdb.m
-//  VOLVO
+//  Stan
 //
-//  Created by yonyou on 2020/7/28.
-//  Copyright © 2020 mac. All rights reserved.
+//  Created by Stan on 2020/7/28.
+//  Copyright © 2020 Stan. All rights reserved.
 //
 
 #import "SCdb.h"
