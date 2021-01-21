@@ -21,8 +21,31 @@ pod 'SCDB'
 ```
 
 
-##Start
-#1
+How to use it, As long as three steps:
+
+
+```
+
+    //creat db
+    [SCdb CreateTableWithClass:[ViewController class]];
+    
+    
+    ViewController *vc = [[ViewController alloc] init];
+    vc.name = @"石川";
+    
+    //insert oc object 
+    [SCdb insertModes:@[vc]];
+                     
+                     //read oc object
+    NSArray *array = [SCdb selectClass:[ViewController class] andProperty:@"name" andWhere:Nil];
+    
+    
+    for (ViewController *vc in array) {
+        NSLog(@"%@",vc.name);
+    }
+
+
+```
 
 
 
