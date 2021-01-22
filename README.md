@@ -13,6 +13,8 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Installation
 
+
+
 SCDB is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
@@ -21,7 +23,10 @@ pod 'SCDB'
 ```
 
 
-How to use it, As long as three steps:
+## Start, As long as three steps:
+# 1.Create table
+# 2.Insert models
+# 3.Read object
 
 
 ```
