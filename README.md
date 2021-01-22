@@ -58,7 +58,7 @@ pod 'SCDB'
 
 ## If you want see the API run,downlod this poriect and run 'Tests'
 
- <img src="https://stanserver.cn:444/scdb.png" width="672" height="454">
+ <img src="https://stanserver.cn:444/scdb.png" width="336" height="227">
 
 ## Author
 
