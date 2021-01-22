@@ -58,7 +58,7 @@ pod 'SCDB'
 
 ## If you want see the API run,downlod this poriect and run 'Tests'
 
-[![Platform](https://stanserver.cn:444/scdb.png)
+[![Platform](https://img.shields.io/cocoapods/p/SCDB.svg?style=flat)](https://cocoapods.org/pods/SCDB)
 
 ## Author
 
