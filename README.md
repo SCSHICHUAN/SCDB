@@ -39,13 +39,13 @@ pod 'SCDB'
     NSArray *array;
         
 
-    //1. creat db
+    //1. creat a table for this model 
    [SCdb CreateTableWithClass:[Model class]];
         
-   //2. insert oc object
+   //2. insert oc object to table
    [SCdb insertModes:@[model]];
                          
-   //3. read oc object
+   //3. read oc object in table
    array = [SCdb selectClass:[Model class] andProperty:@"name" andWhere:Nil];
         
         
