@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		12247E83AC93EDD8B447DF03 /* Pods_SCDB_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 713B28E9651DA0B2E4D84A9A /* Pods_SCDB_Tests.framework */; };
+		337E850ABDDC998481C6731E /* Pods_SCDB_Example_SCDB_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4598594CB3384805853F065B /* Pods_SCDB_Example_SCDB_Tests.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -38,8 +38,11 @@
 
 /* Begin PBXFileReference section */
 		2C4DB99B528CEE644646BCF1 /* Pods-SCDB_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SCDB_Tests.release.xcconfig"; path = "Target Support Files/Pods-SCDB_Tests/Pods-SCDB_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		2CEAC7C50ED8ECB4A964A037 /* Pods-SCDB_Example-SCDB_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SCDB_Example-SCDB_Tests.debug.xcconfig"; path = "Target Support Files/Pods-SCDB_Example-SCDB_Tests/Pods-SCDB_Example-SCDB_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		34DBD6D849D3E3C22BFE4E27 /* Pods-SCDB_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SCDB_Example.release.xcconfig"; path = "Target Support Files/Pods-SCDB_Example/Pods-SCDB_Example.release.xcconfig"; sourceTree = "<group>"; };
 		38D17719D313C60837C44535 /* SCDB.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SCDB.podspec; path = ../SCDB.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		435AC1A3049F1E1CCD3A9372 /* Pods-SCDB_Example-SCDB_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SCDB_Example-SCDB_Tests.release.xcconfig"; path = "Target Support Files/Pods-SCDB_Example-SCDB_Tests/Pods-SCDB_Example-SCDB_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		4598594CB3384805853F065B /* Pods_SCDB_Example_SCDB_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SCDB_Example_SCDB_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* SCDB_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SCDB_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -61,7 +64,6 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		60893AB915B845A34FC708A3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		64DF1E9CC5F2764B159287D2 /* Pods-SCDB_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SCDB_Example.debug.xcconfig"; path = "Target Support Files/Pods-SCDB_Example/Pods-SCDB_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		713B28E9651DA0B2E4D84A9A /* Pods_SCDB_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SCDB_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7864ABF7B43A9477766B0975 /* Pods_SCDB_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SCDB_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -88,7 +90,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				12247E83AC93EDD8B447DF03 /* Pods_SCDB_Tests.framework in Frameworks */,
+				337E850ABDDC998481C6731E /* Pods_SCDB_Example_SCDB_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -124,7 +126,7 @@
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
 				7864ABF7B43A9477766B0975 /* Pods_SCDB_Example.framework */,
-				713B28E9651DA0B2E4D84A9A /* Pods_SCDB_Tests.framework */,
+				4598594CB3384805853F065B /* Pods_SCDB_Example_SCDB_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -192,6 +194,8 @@
 				34DBD6D849D3E3C22BFE4E27 /* Pods-SCDB_Example.release.xcconfig */,
 				F70A72B64687298B03959A2E /* Pods-SCDB_Tests.debug.xcconfig */,
 				2C4DB99B528CEE644646BCF1 /* Pods-SCDB_Tests.release.xcconfig */,
+				2CEAC7C50ED8ECB4A964A037 /* Pods-SCDB_Example-SCDB_Tests.debug.xcconfig */,
+				435AC1A3049F1E1CCD3A9372 /* Pods-SCDB_Example-SCDB_Tests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -226,6 +230,7 @@
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
+				F0979F8F68E0BECDA9E548BC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -310,7 +315,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SCDB_Tests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-SCDB_Example-SCDB_Tests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -324,10 +329,12 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-SCDB_Example/Pods-SCDB_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework",
 				"${BUILT_PRODUCTS_DIR}/SCDB/SCDB.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FMDB.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SCDB.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -355,6 +362,26 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0979F8F68E0BECDA9E548BC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SCDB_Example-SCDB_Tests/Pods-SCDB_Example-SCDB_Tests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework",
+				"${BUILT_PRODUCTS_DIR}/SCDB/SCDB.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FMDB.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SCDB.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SCDB_Example-SCDB_Tests/Pods-SCDB_Example-SCDB_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -523,7 +550,7 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F70A72B64687298B03959A2E /* Pods-SCDB_Tests.debug.xcconfig */;
+			baseConfigurationReference = 2CEAC7C50ED8ECB4A964A037 /* Pods-SCDB_Example-SCDB_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -548,7 +575,7 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2C4DB99B528CEE644646BCF1 /* Pods-SCDB_Tests.release.xcconfig */;
+			baseConfigurationReference = 435AC1A3049F1E1CCD3A9372 /* Pods-SCDB_Example-SCDB_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (

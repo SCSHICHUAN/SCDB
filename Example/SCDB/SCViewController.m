@@ -8,6 +8,7 @@
 
 #import "SCViewController.h"
 
+#import "SCdb.h"
 
 @interface SCViewController ()
 

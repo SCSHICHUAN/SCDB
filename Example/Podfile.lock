@@ -1,16 +1,25 @@
 PODS:
-  - SCDB (0.1.0)
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - SCDB (2.0.2):
+    - FMDB
 
 DEPENDENCIES:
   - SCDB (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FMDB
 
 EXTERNAL SOURCES:
   SCDB:
     :path: "../"
 
 SPEC CHECKSUMS:
-  SCDB: 068c9b9447d66a3b6b757196c4f17a508a7a4d59
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  SCDB: 2c3113d50bf635d7cebf018f10099315904a2216
 
-PODFILE CHECKSUM: fce4de8e5dcb326b07ab0874b956f4a664bade99
+PODFILE CHECKSUM: 2929a570e9e9f54a686d47caedfd0c5ae6a97910
 
 COCOAPODS: 1.10.0

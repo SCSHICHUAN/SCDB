@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_SCDB_TestsVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_SCDB_TestsVersionString[];
+FOUNDATION_EXPORT double Pods_SCDB_Example_SCDB_TestsVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_SCDB_Example_SCDB_TestsVersionString[];
 
