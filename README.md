@@ -26,28 +26,32 @@ How to use it, As long as three steps:
 
 ```
 
-    ViewController *vc = [[ViewController alloc] init];
-    vc.name = @"石川";
-    NSArray *array;
+    /*SCDB Example*/
     
+    Model *model = [[Model alloc] init];
+    model.name = @"石川";
+    model.age = 30;
+    NSArray *array;
+        
 
     //1. creat db
-    [SCdb CreateTableWithClass:[ViewController class]];
-    
-    //2. insert oc object 
-    [SCdb insertModes:@[vc]];
-                     
-    //3. read oc object
-    array = [SCdb selectClass:[ViewController class] andProperty:@"name" andWhere:Nil];
-    
-    
-    for (ViewController *vc in array) {
-        NSLog(@"%@",vc.name);
+   [SCdb CreateTableWithClass:[Model class]];
+        
+   //2. insert oc object
+   [SCdb insertModes:@[model]];
+                         
+   //3. read oc object
+   array = [SCdb selectClass:[Model class] andProperty:@"name" andWhere:Nil];
+        
+        
+    for (Model *model in array) {
+        NSLog(@"[name:%@,heigit:%ld]",model.name,(long)model.age);
     }
 
 
 ```
 
+## If you want see the API run,downlod this poriect and run 'Tests'
 
 
 ## Author
