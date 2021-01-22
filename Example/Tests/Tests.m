@@ -31,28 +31,26 @@
 {
     [super setUp];
     /*SCDB Example*/
-    
-    Model *model = [[Model alloc] init];
-    model.name = @"石川";
-    model.age = 30;
-    NSArray *array;
-        
+       
+       Model *model = [[Model alloc] init];
+       model.name = @"石川";
+       model.age = 30;
+       NSArray *array;
+           
 
-    //1. creat db
-   [SCdb CreateTableWithClass:[Model class]];
-        
-   //2. insert oc object
-   [SCdb insertModes:@[model]];
-                         
-   //3. read oc object
-   array = [SCdb selectClass:[Model class] andProperty:@"name" andWhere:Nil];
-        
-        
-    for (Model *model in array) {
-        NSLog(@"[name:%@,heigit:%ld]",model.name,(long)model.age);
-    }
-    
-    
+       //1. creat a table for this model
+      [SCdb CreateTableWithClass:[Model class]];
+           
+      //2. insert oc object to table
+      [SCdb insertModes:@[model]];
+                            
+      //3. read oc object in table
+      array = [SCdb selectClass:[Model class] andProperty:@"name" andWhere:Nil];
+           
+           
+       for (Model *model in array) {
+           NSLog(@"[name:%@,heigit:%ld]",model.name,(long)model.age);
+       }
 }
 
 - (void)tearDown
